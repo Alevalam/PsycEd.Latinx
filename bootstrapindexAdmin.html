@@ -11,6 +11,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" href="apa-reference-styles.css">
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
@@ -22,14 +23,14 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>                        
         </button>
-        <a class="navbar-brand" href="bootstrapindex.html">Logo</a>
+        <a class="navbar-brand" href="bootstrapindex.html">PsycEd.Latinx</a>
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#overview">OVERVIEW</a></li>
           <li><a href="#session1">SESSIONS</a></li>
           <li><a href="#expansion">EXPANSION</a></li>
-          <li><a href="#references">REFERENCES</a></li>
+          <li data-toggle="collapse" data-target="#references"><a >REFERENCES</a></li>
 
         </ul>
       </div>
@@ -72,19 +73,25 @@
         <span class="glyphicon glyphicon-home logo-small"></span>
         <h4>POPULATION</h4>
         <h3>
-          <ul >
+          <ul>
+            <li>Recruit participants at community centers like schools, churches, etc.</li>
             <li>Latinx parents of middle schoolers</li>
             <li>Pomona, CA</li>
           </ul>
         </h3>
       </div>
       <div class="col-sm-4">
-        <span class="glyphicon glyphicon-certificate logo-small"></span>
+        <span class="glyphicon glyphicon-education logo-small"></span>
         <h4>CERTIFIED</h4>
       </div>
       <div class="col-sm-4">
-        <span class="glyphicon glyphicon-education logo-small"></span>
-        <h4 style="color:#303030;">HARD WORK</h4>
+        <span class="glyphicon glyphicon-certificate logo-small"></span>
+        <h4>RESOURCES</h4>
+        <h3>
+          <ul>       
+            <a href="https://www.healthyplace.com/psychological-tests/"><li>Mental health tests</li></a>
+          </ul>
+        </h3>
       </div>
     </div>
   </div>
@@ -95,13 +102,13 @@
     <h3>
       <ol>
         <li>Educate about mental health in general</li>  
-        <li>Educate about stigma (Self Stigma and Perceived Stigma)</li>  
+        <li>Educate about stigma and reduce participant stigma (Self Stigma and Perceived Stigma)</li>
         <li>Increase likelihood of people seeking resources and giving access to resources (Talk about self-reliance)</li>
       </ol>
     </h3>
   </div>
 
-  <div class="container-fluid"><h2>WHY THIS MATTERS</h2><br>
+  <div class="container-fluid bg-grey"><h2>WHY THIS MATTERS</h2><br>
     <h3>
       <ul>
         <li>Middle school is a time when mental health issues start to come up</li>
@@ -112,7 +119,7 @@
   </div>
 
 
-  <div id="myCarousel" class="carousel slide" data-ride="carousel" >
+  <div id="myCarousel" class="carousel slide" data-interval="false" >
 
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -127,7 +134,7 @@
 
     <div class="carousel-inner" role="listbox">
 
-      <div class=" item active container-fluid bg-grey">
+      <div class=" item active container-fluid ">
         <div class="row">
           <div class="col-sm-4">
             <span class="glyphicon glyphicon-globe logo slideanim"></span>
@@ -140,16 +147,29 @@
                 <li>Religious Affiliations</li>
                 <li>Familismo</li>
                 <li>Machismo</li>
+                <li>Immigration</li>
+                <li>Language Barriers</li>
               </ul>
             </h3>
           </div>
         </div>
       </div>
 
-      <div class="item container-fluid"><h2>PURPOSE OF INTEGRATED PSYCHOEDUCATION</h2></div>
+      <div class="item container-fluid">
+        <h2>BENEFITS OF INTEGRATED PSYCHOEDUCATION</h2>
+        <h3>
+          <ul>
+            <li>Psychoeducational interventions are less expensive, more easily administered and potentially more accessible than conventional pharmacological and psychological interventions (Donker et al., 2009)</li>
+            <li>Education focused anti-stigma programs have repeatedly been found to be effective at reducing stigma related to mental illness, psychosis, and depression (Griffiths et al., 2014) </li>
+            <li>Latinos are now the largest minority group in the United States, comprising more than 35 million people or 12.5% of the total US population (Nadeem et al., 2007)</li>
+            <li>Briefness of the face-to-face Intervention component of the program is more feasible for participants who want to learn about mental health since the commitment is only three sessions and voluntary </li>
+          </ul>
+        </h3>
+      </div>
 
 
-      <div class="item container-fluid bg-grey">
+
+      <div class="item container-fluid ">
         <div class="row">
           <div class="col-sm-4">
             <span class="glyphicon glyphicon-phone logo slideanim"></span>
@@ -161,8 +181,8 @@
               <ul>
                 <li>Flyers in community centers, churches, schools</li>
                 <li>Incentives:<ul>
-                  <li>Childcare</li>
-                  <li>Breakfast and lunch: Ethnic foods from community vendors</li>
+                  <li>Childcare (for the duration of the session)</li>
+                  <li>Breakfast and lunch: Ethnic foods from community vendors (30 minutes each)</li>
                   <li>Technology: Android tablet to be used throughout the sessions to access resources on website and will be kept by participants after completion of the program (One per family)</li>
                 </ul></li>
               </ul>
@@ -181,23 +201,40 @@
     </h3>
   </div>
 
-    <div class="item container-fluid bg-grey">
+    <div class="item container-fluid ">
     <div class="row">
       <div class="col-sm-4">
         <span class="glyphicon glyphicon-stats logo slideanim"></span>
       </div>
       <div class="col-sm-8">
         <h2>ASSESSMENT METHODS</h2><br>
-        <h4><strong>MISSION:</strong> Our mission lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br>
+        <h3>
+        Possible metrics for measuring participants’ stigma: (ideally 20-30 mins of testing since there is a pre (and post test?) and lunch takes up 30 mins) leaves 2 hours 30 mins for program approx.
+          <ul>
+            <li>Attitudes toward seeking professional psychological help scale</li>
+            <li>Self-stigma of seeking help scale</li>
+            <li>Internalized Stigma of Mental Illness Scale</li>
+            <li>Mental health recovery measure</li>
+            <li>Boston University empowerment scale</li>
+            <li>Multidimensional scale of perceived social support</li>
+            <li>Parental Attitudes Toward Psychological Services Inventory → to determine likelihood that parents seek mental health care for their children should they need. </li>
+          </ul>
+        </h3>
+
+
+
       </div>
     </div>
   </div>
+
+
+
 
  <div class="item container-fluid"><h2>POSSIBLE TREATMENT IDEAS FOR FOUNDATION</h2></div>
 
    
  
-  <div class="item container-fluid bg-grey">
+  <div class="item container-fluid ">
     <div class="row">
       <div class="col-sm-4">
         <span class="glyphicon glyphicon-list-alt logo slideanim"></span>
@@ -296,9 +333,26 @@
       <div class="row">
         <div class="col-sm-8">
           <h2>CURRENT LIMITATIONS</h2><br>
+          <h3>
+            <ul>
+              <li>Limited amount of time</li>
+              <li>Limited amount of space in the program</li>
+              <li>Limited amount of researchers available to speak with participants</li>
+              <li>Possible drop out: fear of stigmatization</li>
+              <li>Retention of information may be low due to the limited sessions or if resources are not used</li>
+            </ul>
+          </h3><br>
 
           <h2>DIRECTIONS FOR FUTURE RESEARCH AND PROGRAM EXPANSION</h2><br>
-
+          <h3>
+            <ul>
+              <li>Other age groups: parents with younger/older children, program for children, program for teens, program for older adults</li>
+              <li>Ambassador program so that participants can generally educate others on mental health and receive a certification “Ally for Combatting Stigma against Mental Health”</li>
+              <li>Incorporate Guest Speakers who are famous in Latinx community into Program Intervention</li>
+              <li>Why?
+Referent Power→ People will be more influenced to seek treatment simply because of their liking/admirability of someone (French, Raven & Cartwright, 2016)</li>
+            </ul>
+          </h3>
         </div>
         <div class="col-sm-4">
           <span class="glyphicon glyphicon-forward logo"></span>
@@ -306,10 +360,42 @@
       </div>
     </div>
 
-    <div id="references" class="container-fluid">
+    <div id="references" class="container-fluid collapse">
       <h2>WORKS CITED</h2><br>
+      <h3>
+         <ul class="ref-apa">
+          <li>Donker, T., Griffiths, K. M., Cuijpers, P., & Christensen, H. (2009). Psychoeducation for depression, anxiety and psychological distress: a meta-analysis. BMC medicine, 7(1), 79.</li>
+          <li>McMiller, W. P., & Weisz, J. R. (1996). Help-seeking preceding mental health clinic intake among African-American, Latino, and Caucasian youths. Journal of the American Academy of Child & Adolescent Psychiatry, 35(8), 1086-1094.</li>
+          <li>Nadeem, E., Lange, J. M., Edge, D., Fongwa, M., Belin, T., & Miranda, J. (2007). Does stigma keep poor young immigrant and US-born black and Latina women from seeking mental health care?. Psychiatric Services, 58(12), 1547-1554.</li>
+          <li>“Psychological Tests.” HealthyPlace, 2017, www.healthyplace.com/psychological-tests/. </li>
+          <li>Chandra, A., & Minkovitz, C. (2006). Stigma starts early: Gender differences in teen willingness to use mental health services. Journal Of Adolescent Health, 38(6), 754.e1-754.e8. http://dx.doi.org/10.1016/j.jadohealth.2005.08.011</li>          
+          <li>Alegría, M., Canino, G., Ríos, R., Vera, M., Calderón, J., Rusch, D., & Ortega, A. (2002). Mental Health Care for Latinos: Inequalities in Use of Specialty Mental Health Services Among Latinos, African Americans, and Non-Latino Whites. Psychiatric Services, 53(12), 1547-1555. http://dx.doi.org/10.1176/appi.ps.53.12.1547</li>
+          <li>French, J. R., Raven, B., & Cartwright, D. (1959). The bases of social power. Classics of organization theory, 7.</li>
+          <li>Griffiths, K.M., Carron-Arthur, B., Parsons, A., and Reid, R. (2014). Effectiveness of programs for reducing the stigma associated with mental disorders. A meta-analysis of randomized, controlled trials. World Psychiatry, 13(2), 161-175.</li>
+          <li>Gary, F. A. (2005). Stigma: barrier to mental health care among ethnic minorities. Issues in Mental Health Nursing, 26(10), 979–999. https://doi.org/10.1080/01612840500280638</li>
+          <li>Pescosolido, B., Martin, J., Lang, A., & Olafsdottir, S. (2008). Rethinking theoretical approaches to stigma: A Framework Integrating Normative Influences on Stigma (FINIS). Social Science & Medicine, 67(3), 431-440. http://dx.doi.org/10.1016/j.socscimed.2008.03.018</li>
+          <li>Pearl, R. L., Forgeard, M. C., Rifkin, L., Beard, C., & Björgvinsson, T. (2017). Internalized stigma of mental illness: Changes and associations with treatment outcomes. Stigma And Health, 2(1), 2-15. doi:10.1037/sah0000036</li>
+          <li>Corrigan, P. (2004). How stigma interferes with mental health care. American Psychologist, 59(7), 614-625. http://dx.doi.org/10.1037/0003-066X.59.7.614</li>
+          <li>Corrigan, P.W., Druss, B.G., and Perlick, D.A. (2014). The impact of mental illness stigma on seeking and participating in mental health care. Psychological Science in the Public Interest, 15(2), 37-70. </li>
+          <li>Vogel, D. L., Wade, N. G., & Haake, S. (2006). Measuring the self-stigma associated with seeking psychological help. Journal Of Counseling Psychology, 53(3), 325-337. doi:10.1037/0022-0167.53.3.325</li>
+      
+
+        </ul>
+      </h3>
 
     </div>
+
+
+
+
+ 
+
+
+
+
+
+
+
 
 
 
