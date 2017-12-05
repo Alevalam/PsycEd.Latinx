@@ -175,3 +175,7 @@
         font-size: 150px;
     }
   }
+
+.icondiv:hover {
+  background-color: #96eaa2;
+}

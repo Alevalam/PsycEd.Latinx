@@ -175,3 +175,7 @@ body {
         font-size: 150px;
     }
   }
+
+.icondiv:hover {
+  background-color: #96d6ea;
+}
